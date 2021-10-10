@@ -1,0 +1,93 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <!-- Button trigger modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <div class="modal-header text-center">
+          <h5 class="modal-title pt-3" id="staticBackdropLabel">
+             
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+      
+         <form action="" id="formquiz"> 
+         <ul class="list-group p-2">
+            <li class="list-group-item list-group-item-primary mb-2">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="resp" id="resp1" value="">
+                    <label class="form-check-label" for="flexRadioDefault1" id="resp1label">
+                        
+                      </label>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-info mb-2">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="resp" id="resp2" value="">
+                    <label class="form-check-label" for="flexRadioDefault1" id="resp2label">
+                        
+                      </label>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-secondary mb-2">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="resp" id="resp3" value="">
+                    <label class="form-check-label" for="flexRadioDefault1" id="resp3label">
+                       
+                      </label>
+                </div>
+            </li>
+            <li class="list-group-item list-group-item-dark mb-2">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="resp" id="resp4" value="">
+                    <label class="form-check-label" for="flexRadioDefault1" id="resp4label">
+                        
+                      </label>
+                </div>
+            </li>
+         </ul>
+         <div class="response text-center"></div>  
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="send" class="btn btn-outline-success btn-sm"><i class="fas fa-check"></i> Confirmar</button>
+          <a href="" id=closed class="btn btn-outline-danger btn-sm" data-bs-dismiss="modal"><i class="fas fa-arrow-right"></i> Sair</a>
+        </div>
+      </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+    </div>
+
+<div class="container">
+<div class="row d-flex justify-content-center">
+    <div class="col-sm-12 col-md-8 col-lg-8">
+    <h3 class="text-center mt-5"><i class="far fa-lightbulb text-warning"></i> <span class="text-dark" style="font-size:20pt;">Quiz de conhecimento elétrico</span></h3><hr>
+    <div class="d-flex justify-content-center">
+        <ul class="text-justify pt-3 pb-0 list-group list-group">
+            <li class="list-group-item border-0">1 - Perguntas atualizadas</li>
+            <li class="list-group-item border-0">2 - Mais de 10.000 perguntas em base de dados</li>
+            <li class="list-group-item border-0">3 - 100% grátis</li>
+            <li class="list-group-item border-0">4 - Perguntas atualizadas de concursos públicos</li>
+            <li class="list-group-item border-0 text-center">
+            <h6 class="pt-3"> Ficou na dúvida?Jogue agora e divirta-se</h6>
+            </li>    
+        </ul>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+    <button id="startgame" type="button" class="btn btn-warning btn-lg mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="far fa-play-circle"></i> Começar o Jogo</button>
+    </div> 
+    <div class="result mt-5 text-center"></div>
+    </div> 
+</div>    
+</div>
+
+

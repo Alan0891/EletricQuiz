@@ -1,0 +1,13 @@
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+#imglogin{
+    background-image: url('/public/assets/imgs/images.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
